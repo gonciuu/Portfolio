@@ -1,10 +1,5 @@
-import Hello from '@/components/Hello'
-import '../styles/globals.css'
+import Navbar from '@/components/Navbar/Navbar'
 
 export default function HomePage() {
-  return (
-    <div>
-      <Hello />
-    </div>
-  )
+  return <Navbar />
 }

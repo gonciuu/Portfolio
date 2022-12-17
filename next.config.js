@@ -4,7 +4,14 @@ const nextConfig = {
   swcMinify: true,
   experimental: {
     appDir: true,
-    fontLoaders: [{ loader: '@next/font/google', options: { subsets: ['latin'] } }],
+    fontLoaders: [
+      {
+        loader: '@next/font/google',
+        options: {
+          subsets: ['latin'],
+        },
+      },
+    ],
   },
 }
 
@@ -12,6 +19,4 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true',
 })
 
-
 module.exports = withBundleAnalyzer(nextConfig)
-
