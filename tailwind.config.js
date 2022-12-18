@@ -5,7 +5,7 @@ module.exports = {
     './src/app/**/*.{js,ts,jsx,tsx}',
     './src/pages/**/*.{js,ts,jsx,tsx}',
     './src/components/**/*.{js,ts,jsx,tsx}',
-    "!./node_modules",
+    '!./node_modules',
   ],
   theme: {
     extend: {
@@ -46,7 +46,7 @@ module.exports = {
           700: '#c72a07',
           800: '#9e220e',
           900: '#7f1f0f',
-        },       
+        },
       },
     },
   },
