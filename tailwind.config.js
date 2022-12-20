@@ -9,45 +9,78 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+      },
       colors: {
-        mainBlue: {
-          50: '#fcf3e0',
-          50: '#f3f8fb',
-          100: '#e0eaf3',
-          200: '#d0e0ed',
-          300: '#afcce1',
-          400: '#89b0d1',
-          500: '#6d97c4',
-          600: '#5a80b6',
-          700: '#4f6fa6',
-          800: '#455c88',
-          900: '#3b4d6d',
+        'sweety-pink': {
+          50: '#fff3fd',
+          100: '#ffe6fd',
+          200: '#ffccfa',
+          300: '#ffa3f4',
+          400: '#ff6deb',
+          500: '#ff30ea',
+          600: '#e316ca',
+          700: '#bd0ea4',
+          800: '#9a0e85',
+          900: '#7e116b',
         },
-        mainPurple: {
-          50: '#ecefff',
-          100: '#dde1ff',
-          200: '#c2c9ff',
-          300: '#9ca4ff',
-          400: '#7675ff',
-          500: '#6e61ff',
-          600: '#5536f5',
-          700: '#492ad8',
-          800: '#3b25ae',
-          900: '#332689',
+        'sweety-purple': {
+          50: '#faf4ff',
+          100: '#f5e7ff',
+          200: '#ebceff',
+          300: '#d99aff',
+          400: '#cc74fe',
+          500: '#b540f5',
+          600: '#9b20d9',
+          700: '#8217b4',
+          800: '#6d1593',
+          900: '#5d1778',
         },
-        mainOrange: {
-          50: '#fff5ed',
-          100: '#ffe8d4',
-          200: '#ffcda8',
-          300: '#ffaa70',
-          400: '#ff7b37',
-          500: '#ff611e',
-          600: '#f03c06',
-          700: '#c72a07',
-          800: '#9e220e',
-          900: '#7f1f0f',
+        'sweety-gray': {
+          50: '#f7f7f7',
+          100: '#e3e3e3',
+          200: '#c8c8c8',
+          300: '#a4a4a4',
+          400: '#818181',
+          500: '#666666',
+          600: '#515151',
+          700: '#434343',
+          800: '#383838',
+          900: '#1c1c1c',
         },
       },
+    },
+    keyframes: {
+      wave: {
+        '0%': {
+          transform: 'rotate(0deg)',
+        },
+        ' 10%': {
+          transform: 'rotate(14deg)',
+        } /* The following five values can be played with to make the waving more or less extreme */,
+        '20%': {
+          transform: 'rotate(-8deg)',
+        },
+        '30%': {
+          transform: ' rotate(14deg)',
+        },
+        '40%': {
+          transform: 'rotate(-4deg)',
+        },
+        '50%': {
+          transform: 'rotate(10deg)',
+        },
+        '60%': {
+          transform: 'rotate(0deg)',
+        } /* Reset for the last half to pause */,
+        '100% ': {
+          transform: 'rotate(0deg)',
+        },
+      },
+    },
+    animation: {
+      wave: 'wave 2.5s ease-in-out infinite',
     },
   },
   plugins: [],

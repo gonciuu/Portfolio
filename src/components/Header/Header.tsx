@@ -1,37 +1,30 @@
-import Image from 'next/image'
-
 import Button from '../(common)/Button'
 import Flex from '../(common)/Flex'
-import Navbar from '../Navbar/Navbar'
 
 export default function Header() {
   return (
-    <div>
-      <Navbar />
-      <div className="mx-auto mt-20 max-w-5xl">
-        <h1 className=" text-center text-5xl font-bold leading-[1.3]">
-          &ldquo;The best{' '}
-          <span className="mx-1 inline-block rotate-[-8deg] rounded-full border-[2px] border-black bg-mainOrange-500 p-[6px] text-white">
-            <span className="inline-block rounded-full border-[2px] border-black p-3 text-4xl">
-              error
-            </span>
-          </span>{' '}
-          message is the one <br /> that never shows up&bdquo;
-        </h1>
-        <p className="mx-auto mt-8 max-w-3xl text-center text-lg text-gray-700">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec convallis malesuada dictum.
-          Vestibulum lacinia placerat tempus. Mauris ultrices eros eget massa rhoncus, et feugiat
-          ipsum porta.
-        </p>
-        <Button className="group mx-auto mt-12 block" size="lg">
-          <Flex className="justify-center space-x-2 text-lg">
-            <div>Take a tour</div>{' '}
-            <div className="duration-300 group-hover:pl-2">
-              <Image alt="rocket" height={24} src="/rocket.svg" width={24} />
-            </div>
-          </Flex>
-        </Button>
+    <header className="relative flex h-screen flex-col items-center justify-center text-white">
+      <div className="absolute z-[-1] rounded-full opacity-20 blur-3xl">
+        <div className="h-60 w-60 rounded-full bg-gradient-radial from-sweety-pink-500 to-sweety-purple-300 " />
       </div>
-    </div>
+      <h1 className="text-center text-7xl font-extrabold leading-[1.3]">
+        Nothing will{' '}
+        <span className="bg-gradient-to-r from-sweety-pink-500 to-sweety-purple-300 bg-clip-text text-transparent">
+          work
+        </span>
+        <br />
+        unless you do.
+      </h1>
+      <h5 className="mt-8 max-w-xl text-center text-xl text-sweety-gray-200">
+        Lorem ipsum <b>dolor</b> sit amet, consectetur adipiscing elit. Donec porttitor, urna sit
+        amet fermentum gravida, elit elit dictum purus.
+      </h5>
+      <Button className="group mt-16 duration-200">
+        <Flex>
+          <span className="mr-2">Say Hello! </span>
+          <span className="inline-block origin-[70%_70%] animate-wave">👋</span>
+        </Flex>
+      </Button>
+    </header>
   )
 }
