@@ -1,5 +1,6 @@
 import Button from '../(common)/Button'
 import Flex from '../(common)/Flex'
+import PinkText from '../(common)/PinkText'
 
 export default function Header() {
   return (
@@ -8,10 +9,7 @@ export default function Header() {
         <div className="h-60 w-60 rounded-full bg-gradient-radial from-sweety-pink-500 to-sweety-purple-300 " />
       </div>
       <h1 className="text-center text-7xl font-extrabold leading-[1.3]">
-        Nothing will{' '}
-        <span className="bg-gradient-to-r from-sweety-pink-500 to-sweety-purple-300 bg-clip-text text-transparent">
-          work
-        </span>
+        Nothing will <PinkText>work</PinkText>
         <br />
         unless you do.
       </h1>
@@ -21,7 +19,7 @@ export default function Header() {
       </h5>
       <Button className="group mt-16 duration-200">
         <Flex>
-          <span className="mr-2">Say Hello! </span>
+          <span className="mr-2">Say Hello!</span>
           <span className="inline-block origin-[70%_70%] animate-wave">👋</span>
         </Flex>
       </Button>

@@ -9,6 +9,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      maxWidth: {
+        '4xl': '60rem',
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
       },
@@ -48,6 +51,18 @@ module.exports = {
           700: '#434343',
           800: '#383838',
           900: '#1c1c1c',
+        },
+        'sweety-blue': {
+          50: '#edf8ff',
+          100: '#d7efff',
+          200: '#b9e4ff',
+          300: '#88d4ff',
+          400: '#50bbff',
+          500: '#289bff',
+          600: '#1b82ff',
+          700: '#0a64eb',
+          800: '#0f50be',
+          900: '#134795',
         },
       },
     },
