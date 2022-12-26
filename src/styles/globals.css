@@ -5,6 +5,10 @@
   @apply ;
 } */
 
+* {
+  -webkit-font-smoothing: antialiased;
+}
+
 @layer base {
   html {
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;

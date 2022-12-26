@@ -1,23 +1,46 @@
 import BikeRide from './Cards/BikeRide'
+import CommercialExperience from './Cards/CommercialExperience'
+import ContactCard from './Cards/ContactCard'
 import CreatedProjects from './Cards/CreatedProjects'
+import MultiplatformApps from './Cards/MultiplatformApps'
+import NpmLibraries from './Cards/NpmLibraries'
+import OpenMinded from './Cards/OpenMinded'
 import TechnologyStack from './Cards/TechnologyStack'
+import UiDesign from './Cards/UiDesign'
+import VideoEditing from './Cards/VideoEditing'
 import SkillCard from './SkillCard'
 
 export default function SkillsGrid() {
   return (
-    <div className="mt-8 grid grid-cols-12 grid-rows-4 gap-4">
+    <div className="mt-8 grid auto-rows-min  grid-cols-12 gap-4">
       <TechnologyStack />
       <CreatedProjects />
       <BikeRide />
-      <SkillCard className="col-span-3 row-span-2">elo1</SkillCard>
-      <SkillCard className="col-span-3 row-span-2">elo2</SkillCard>
-      <SkillCard className="col-span-2 row-span-1">elo3</SkillCard>
-      <SkillCard className="col-span-2 row-span-1">elo4</SkillCard>
-      <SkillCard className="col-span-2 row-span-1">elo5</SkillCard>
-      <SkillCard className="col-span-2 row-span-1">elo6</SkillCard>
-      <SkillCard className="col-span-3 row-span-1">elo7</SkillCard>
-      <SkillCard className="col-span-6 row-span-1">elo8</SkillCard>
-      <SkillCard className="col-span-3 row-span-1">elo9</SkillCard>gi
+      <NpmLibraries />
+      <UiDesign />
+      <ContactCard
+        image={'/rocket.svg'}
+        textClassName="bg-gradient-to-b from-sweety-orange-100 to-sweety-orange-400 bg-clip-text text-transparent"
+        title={'github'}
+        url={'https  ://google.com'}
+      />
+      <ContactCard
+        image={'/rocket.svg'}
+        textClassName="bg-gradient-to-b from-sweety-orange-100 to-sweety-orange-400 bg-clip-text text-transparent"
+        title={'github'}
+        url={'https  ://google.com'}
+      />
+      <OpenMinded />
+      <ContactCard
+        image={'/rocket.svg'}
+        textClassName="bg-gradient-to-b from-sweety-orange-100 to-sweety-orange-400 bg-clip-text text-transparent"
+        title={'github'}
+        url={'https  ://google.com'}
+      />
+      <VideoEditing />
+      <CommercialExperience />
+
+      <MultiplatformApps />
     </div>
   )
 }
