@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Flex from '@/components/(common)/Flex'
 
 import CardTitle from '../common/CardTitle'
-import SkillCard from '../SkillCard'
+import SkillCard from '../common/SkillCard'
 
 export default function CommercialExperience() {
   return (

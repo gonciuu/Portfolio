@@ -1,5 +1,5 @@
 import CardTitle from '../common/CardTitle'
-import SkillCard from '../SkillCard'
+import SkillCard from '../common/SkillCard'
 
 export default function OpenMinded() {
   return (

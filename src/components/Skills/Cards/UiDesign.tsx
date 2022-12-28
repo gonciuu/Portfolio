@@ -1,4 +1,4 @@
-import SkillCard from '../SkillCard'
+import SkillCard from '../common/SkillCard'
 
 export default function UiDesign() {
   return (

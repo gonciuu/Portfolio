@@ -4,7 +4,7 @@ import Flex from '@/components/(common)/Flex'
 import PinkText from '@/components/(common)/PinkText'
 
 import CardTitle from '../common/CardTitle'
-import SkillCard from '../SkillCard'
+import SkillCard from '../common/SkillCard'
 
 export default function CreatedProjects() {
   return (

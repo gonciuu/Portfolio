@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 import Flex from '@/components/(common)/Flex'
 
-import SkillCard from '../SkillCard'
+import SkillCard from '../common/SkillCard'
 export default function MultiplatformApps() {
   return (
     <SkillCard className="col-span-3 row-span-1 p-4">

@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import { twMerge } from 'tailwind-merge'
 
-import SkillCard from '../SkillCard'
+import SkillCard from './SkillCard'
 
 type Props = {
   image: string
