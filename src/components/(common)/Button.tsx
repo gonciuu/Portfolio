@@ -19,8 +19,7 @@ export default function Button({ children, type, className, onClick, variant, si
   const variantClassName = useMemo(() => {
     const variants = {
       filled: 'bg-white text-black font-semibold hover:bg-white/70',
-      outlined:
-        'text-sweety-purple-300 border border-sweety-purple-300 hover:bg-sweety-purple-300 hover:text-white',
+      outlined: 'text-white border border-white hover:bg-white/10',
       ghost: 'text-sweety-blue-600 hover:text-sweety-blue-600/70 py-2 px-0',
     }
 
