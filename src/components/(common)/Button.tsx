@@ -18,10 +18,10 @@ export default function Button({ children, type, className, onClick, variant, si
     'flex items-center justify-center transition duration-300 ease-in-out rounded-xl'
   const variantClassName = useMemo(() => {
     const variants = {
-      filled: 'bg-white text-black font-semibold hover:bg-opacity-70',
+      filled: 'bg-white text-black font-semibold hover:bg-white/70',
       outlined:
         'text-sweety-purple-300 border border-sweety-purple-300 hover:bg-sweety-purple-300 hover:text-white',
-      ghost: 'text-sweety-blue-600 hover:opacity-70 py-2 px-0',
+      ghost: 'text-sweety-blue-600 hover:text-sweety-blue-600/70 py-2 px-0',
     }
 
     const sizes = {

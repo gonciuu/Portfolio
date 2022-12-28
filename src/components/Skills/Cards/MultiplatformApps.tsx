@@ -10,7 +10,7 @@ export default function MultiplatformApps() {
         <Image alt={'rocket'} height={40} src="/rocket.svg" width={40} />
         <Image alt={'rocket'} height={40} src="/rocket.svg" width={40} />
       </Flex>
-      <h3 className="mt-4 text-xl font-semibold leading-[1.3] text-white">
+      <h3 className="mt-4 text-2xl font-semibold leading-[1.3] text-white">
         <span className="text-sweety-gray-200">multiplatform</span> apps
       </h3>
     </SkillCard>

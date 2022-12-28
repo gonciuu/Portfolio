@@ -1,14 +1,13 @@
 import BikeRide from './Cards/BikeRide'
 import CommercialExperience from './Cards/CommercialExperience'
-import ContactCard from './Cards/ContactCard'
 import CreatedProjects from './Cards/CreatedProjects'
 import MultiplatformApps from './Cards/MultiplatformApps'
 import NpmLibraries from './Cards/NpmLibraries'
 import OpenMinded from './Cards/OpenMinded'
-import TechnologyStack from './Cards/TechnologyStack'
+import TechnologyStack from './Cards/TechnologyStack/TechnologyStack'
 import UiDesign from './Cards/UiDesign'
 import VideoEditing from './Cards/VideoEditing'
-import SkillCard from './SkillCard'
+import ContactCard from './common/ContactCard'
 
 export default function SkillsGrid() {
   return (
@@ -39,7 +38,6 @@ export default function SkillsGrid() {
       />
       <VideoEditing />
       <CommercialExperience />
-
       <MultiplatformApps />
     </div>
   )
