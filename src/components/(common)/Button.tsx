@@ -25,9 +25,9 @@ export default function Button({ children, type, className, onClick, variant, si
     }
 
     const sizes = {
-      sm: 'text-sm py-1 px-4',
+      sm: 'text-lg py-[10px] px-6',
       md: 'text-xl py-3 px-10',
-      lg: 'text-xl  py-[10px] px-8',
+      lg: 'text-2xl  py-4 px-12',
     }
 
     const variantClass = variant ? variants[variant] : variants.filled

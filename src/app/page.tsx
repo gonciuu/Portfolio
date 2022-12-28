@@ -1,3 +1,4 @@
+import Contact from '@/components/Contact/Contact'
 import CreatedProjects from '@/components/CreatedProjects/CreatedProjects'
 import Header from '@/components/Header/Header'
 import Skills from '@/components/Skills/Skills'
@@ -8,6 +9,7 @@ export default function HomePage() {
       <Header />
       <CreatedProjects />
       <Skills />
+      <Contact />
     </div>
   )
 }

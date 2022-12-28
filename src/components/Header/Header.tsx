@@ -1,6 +1,7 @@
 import Button from '../(common)/Button'
 import Flex from '../(common)/Flex'
 import PinkText from '../(common)/PinkText'
+import ShakeHand from '../(common)/ShakeHand'
 
 export default function Header() {
   return (
@@ -20,7 +21,7 @@ export default function Header() {
       <Button className="group mt-16 duration-200">
         <Flex>
           <span className="mr-2">Say Hello!</span>
-          <span className="inline-block origin-[70%_70%] animate-wave">👋</span>
+          <ShakeHand />
         </Flex>
       </Button>
     </header>
