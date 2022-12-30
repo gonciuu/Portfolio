@@ -6,12 +6,11 @@ import Skills from '@/components/Skills/Skills'
 
 export default function HomePage() {
   return (
-    <div className="mx-auto max-w-6xl px-4">
+    <div className="mx-auto max-w-6xl px-3">
       <Header />
       <CreatedProjects />
       <Skills />
       <Contact />
-
       <Footer />
     </div>
   )

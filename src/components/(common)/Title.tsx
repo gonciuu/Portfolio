@@ -10,7 +10,7 @@ type Props = {
 export default function Title({ children, className }: Props) {
   return (
     <h2
-      className={twMerge('text-center text-6xl font-extrabold leading-[1.3] text-white', className)}
+      className={twMerge('text-center font-extrabold leading-[1.3] text-white text-6xl', className)}
     >
       {children}
     </h2>
