@@ -11,7 +11,7 @@ type Props = {
 export default function TechnologyProgress({}: Props) {
   return (
     <Flex className="w-full justify-between rounded-lg bg-sweety-gray-800">
-      <Flex className="w-1/2 rounded-lg bg-cyan-600 p-[6px]">
+      <Flex className="w-1/2 rounded-lg  bg-gradient-to-b  from-sweety-blue-500 to-sweety-blue-600 p-[6px]">
         <Flex className="flex h-8 w-8 justify-center rounded-full border-2 border-white/50 font-bold text-white">
           1
         </Flex>
