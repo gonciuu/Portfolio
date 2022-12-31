@@ -11,7 +11,7 @@ import ContactCard from './common/ContactCard'
 
 export default function SkillsGrid() {
   return (
-    <div className="mt-8 grid auto-rows-min  grid-cols-12 gap-4">
+    <div className="mt-8 grid auto-rows-min grid-cols-12 gap-4">
       <TechnologyStack />
       <CreatedProjects />
       <BikeRide />

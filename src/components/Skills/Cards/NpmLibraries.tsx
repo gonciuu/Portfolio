@@ -7,7 +7,7 @@ import SkillCard from '../common/SkillCard'
 
 export default function NpmLibraries() {
   return (
-    <SkillCard className="col-span-3 row-span-2 items-center justify-evenly">
+    <SkillCard className="col-span-12 row-span-2 items-center justify-evenly sm:col-span-6 lg:col-span-3">
       <CardTitle className="text-2xl font-bold">Know more than</CardTitle>
       <Flex className="items-center space-x-4">
         <h1 className="bg-gradient-to-b from-sweety-orange-100 to-sweety-orange-400 bg-clip-text text-8xl font-extrabold text-transparent">

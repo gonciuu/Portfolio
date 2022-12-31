@@ -7,7 +7,7 @@ import SkillCard from '../common/SkillCard'
 
 export default function CommercialExperience() {
   return (
-    <SkillCard className="col-span-6 row-span-1">
+    <SkillCard className="col-span-12 row-span-1 sm:col-span-6">
       <Flex className="justify-between">
         <CardTitle className="text-2xl">
           Experience in

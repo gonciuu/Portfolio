@@ -4,7 +4,7 @@ import SkillCard from '../../common/SkillCard'
 import TechnologyProgress from './TechnologyProgress'
 export default function TechnologyStack() {
   return (
-    <SkillCard className="col-span-4 row-span-2 flex flex-col justify-between">
+    <SkillCard className="col-span-12 row-span-2 flex flex-col justify-between sm:col-span-6 lg:col-span-4">
       <CardTitle>
         Technology
         <br /> Stack <span className="text-sweety-blue-400">Knowledge</span>

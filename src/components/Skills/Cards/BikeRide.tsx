@@ -7,7 +7,7 @@ import SkillCard from '../common/SkillCard'
 
 export default function BikeRide() {
   return (
-    <SkillCard className="col-span-4 row-span-1">
+    <SkillCard className="col-span-12 row-span-1 sm:col-span-6 lg:col-span-4">
       <Flex className="justify-between">
         <CardTitle>
           Bike Riding <br />
