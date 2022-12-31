@@ -9,15 +9,16 @@ import SocialGrid from './SocialGrid'
 export default function Contact() {
   return (
     <section className="mx-auto py-12">
-      <PinkText className="block text-4xl">Get In Touch</PinkText>
+      <PinkText className="block">Get In Touch</PinkText>
       <Title className="mt-2">Contact</Title>
-      <Flex className="mt-8 space-x-12 rounded-2xl bg-sweety-gray-900 px-10 py-5">
+      <Flex className="mt-8 flex-col items-start space-y-8 rounded-2xl bg-sweety-gray-900 px-4 py-5 md:flex-row md:items-center md:space-x-4 md:space-y-0 md:px-10">
         <div className="flex-[2]">
-          <Title className="text-start text-5xl font-bold">Thanks for watching.</Title>
-          <Title className="text-start text-5xl font-bold">Contact me chosen way.</Title>
-          <h5 className="mt-2 text-xl text-sweety-gray-200">
-            You can find me on my linkedin, github, <br />
-            send me an email. Whatever you want.
+          <Title className="text-start text-2xl font-bold sm:text-3xl md:text-5xl md:leading-[1.2]">
+            Thanks for watching. <br />
+            Contact me chosen way.
+          </Title>
+          <h5 className="mt-4 max-w-md text-lg text-sweety-gray-200 sm:text-xl">
+            You can find me on my linkedin, github, send me an email. Whatever you want.
           </h5>
           <Button className="mt-8" size="sm" url="mailto:kacperwojak17@gmail.com">
             <Flex>
