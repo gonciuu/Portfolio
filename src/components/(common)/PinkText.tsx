@@ -11,7 +11,7 @@ export default function PinkText({ children, className }: Props) {
   return (
     <div
       className={twMerge(
-        'inline-block bg-gradient-to-r from-sweety-pink-500 to-sweety-purple-300 bg-clip-text text-transparent text-center font-extrabold',
+        'inline-block bg-gradient-to-r from-sweety-pink-500 to-sweety-purple-300 bg-clip-text text-transparent text-center font-extrabold text-2xl sm:text-4xl',
         className
       )}
     >
