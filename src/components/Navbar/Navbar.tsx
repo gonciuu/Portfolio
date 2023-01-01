@@ -16,7 +16,7 @@ export default function Navbar() {
   const navbar = useMemo(() => {
     const scrolledClasses = 'bg-sweety-gray-900/75 backdrop-blur-lg border-sweety-gray-500 h-14'
     const notScrolledClasses = 'bg-transparent backdrop-blur-none border-transparent h-16'
-    return scroll < 150 ? notScrolledClasses : scrolledClasses
+    return scroll < 100 ? notScrolledClasses : scrolledClasses
   }, [scroll])
 
   return (
