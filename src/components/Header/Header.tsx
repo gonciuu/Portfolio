@@ -5,7 +5,10 @@ import ShakeHand from '../(common)/ShakeHand'
 
 export default function Header() {
   return (
-    <header className="relative flex h-screen flex-col items-center justify-center text-white">
+    <header
+      className="relative flex h-screen flex-col items-center justify-center text-white"
+      id="home"
+    >
       <div className="absolute z-[-1] rounded-full opacity-20 blur-3xl">
         <div className="h-60 w-60 rounded-full bg-gradient-radial from-sweety-pink-500 to-sweety-purple-300 " />
       </div>

@@ -8,7 +8,7 @@ import SocialGrid from './SocialGrid'
 
 export default function Contact() {
   return (
-    <section className="mx-auto py-12">
+    <section className="mx-auto py-12" id="contact">
       <PinkText className="block">Get In Touch</PinkText>
       <Title className="mt-2">Contact</Title>
       <Flex className="mt-8 flex-col items-start space-y-8 rounded-2xl bg-sweety-gray-900 px-4 py-6 md:flex-row md:items-center md:space-x-4 md:space-y-0 md:px-8">

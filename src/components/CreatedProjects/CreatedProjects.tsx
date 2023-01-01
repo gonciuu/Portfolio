@@ -5,7 +5,7 @@ import ProjectCard from './ProjectCard'
 
 export default function CreatedProjects() {
   return (
-    <section className="mx-auto">
+    <section className="mx-auto" id="projects">
       <PinkText className="block">Develop</PinkText>
       <Title className="mt-2">What shit I created?</Title>
       <div className="mt-12 grid gap-6 sm:grid-cols-2 md:gap-12">
