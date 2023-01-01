@@ -26,7 +26,7 @@ export default function Navbar() {
         navbar
       )}
     >
-      <Flex className="w-full justify-center gap-8">
+      <Flex className="w-full justify-center gap-5 sm:gap-8">
         {menuItems.map((item) => {
           return (
             <MenuItem href={item.path} key={item.path}>
